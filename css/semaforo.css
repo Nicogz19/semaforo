@@ -1,0 +1,86 @@
+body{
+	background: #45507F;
+	background: url("../../imagen/semaforo.jpg");
+	background-size: cover;
+	margin: 0px; 
+}
+.contenedor{
+	padding: 16px;
+	background: #303030;
+	width: 63px;
+	margin: 110px auto;
+	border-radius: 10px;
+	border:1.5px solid black;
+	box-shadow: 2px 2px 2px black;
+}
+.rojo{
+	background: #CF1010;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	margin-bottom: 8px;
+	box-shadow: 4px 4px 2px black;
+}
+.amarillo{
+	background: #EAE31C;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	margin-bottom: 8px;
+	box-shadow: 4px 4px 2px black;
+}
+.verde{
+	background: green;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	box-shadow: 4px 4px 2px black;
+}
+.rojoEncendido{
+	background: #FF0000;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	margin-bottom: 8px;
+	box-shadow: 5px 5px 20px #FF0000,
+				-5px -5px 20px #FF0000;
+}
+.amarilloEncendido{
+	background: yellow;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	margin-bottom: 8px;
+	box-shadow: 5px 5px 20px yellow,
+				-5px -5px 20px yellow;
+}
+.verdeEncendido{
+	background: #1FFF00;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	box-shadow: 5px 5px 20px #1FFF00,
+				-5px -5px 20px #1FFF00;
+}
+.palo{
+	background: #232323;
+	margin: -110px auto;
+	width: 20px;
+	height: 351px;
+	border: 1.5px solid black;
+}
+.color{
+	background: #CFBF0F;
+	width: 20px;
+	height: 19px;
+	margin-bottom: 40px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+.ultimo{
+	background: #CFBF0F;
+	width: 20px;
+	height: 20px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
